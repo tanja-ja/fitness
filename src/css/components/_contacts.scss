@@ -1,0 +1,73 @@
+.contacts{
+  background-color: var(--Black-Russian-color);
+
+  &__title{
+    position: relative;
+    padding-left: 170px;
+    padding-top: 150px;
+    margin-bottom: 100px;
+  }
+  &__title::before{
+    content: "";
+    position: absolute;
+    left: 170px;
+    bottom: -4px;
+    width: 248px;
+    height: 2px;
+    background-color: var(--Pizza-color);
+}
+&__wrap{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap:30px;
+padding-bottom: 240px;
+
+}
+&__left{
+  grid-column: 1/7;
+  background-image: url('../img/Rectangle 75.png');
+margin-right: 50px;
+}
+&__list{
+  display: flex ;
+  flex-direction: column;
+  padding: 70px 80px;
+}
+
+
+&__item:not(:last-child) {
+  margin-bottom: 90px;
+}
+&__link{
+  display: block;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+font-size: 24px;
+line-height: 31px;
+color:var(--White-color);
+}
+&__svg{
+  height: 50px;
+    margin-right: 20px;
+  }
+  &__right{
+    grid-column: 7/13;
+  }
+  &__right-title{
+    margin: 0;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    color:var(--White-color);
+  }
+  &__tigh-descr{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color:var(--White-color);
+    margin-bottom: 50px;
+  }
+}
+
+

@@ -1,0 +1,30 @@
+.gallery{
+  background-color: var( --Black-Russian-color);
+  &__title{
+    position: relative;
+    padding-left: 170px;
+    padding-top: 150px;
+  }
+  &__title::before{
+    content: "";
+    position: absolute;
+    left: 170px;
+    bottom: -4px;
+    width: 178px;
+    height: 2px;
+    background-color: var(--Pizza-color);
+}
+&__wrapper{
+  padding-top: 125px;
+  text-align: center;
+}
+&__nav{
+ margin-top: -400px;
+ padding-bottom: 550px;
+}
+&__btns{
+  display: flex;
+  justify-content: space-between;
+}
+
+}

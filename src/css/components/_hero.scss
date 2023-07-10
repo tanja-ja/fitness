@@ -1,0 +1,27 @@
+.hero{
+margin-top: -700px;
+margin-bottom:450px;
+padding-left: 320px;
+&__wrap{
+  max-width: 415px;
+
+}
+&__title{
+  margin: 0;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 91px;
+  text-transform: uppercase;
+  color: var(--White-color);
+}
+&__subtitle{
+  display: inline-block;
+  margin: 0;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: var(--White-color);
+}
+}
+

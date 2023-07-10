@@ -1,0 +1,20 @@
+:root {
+    // base
+    --font-family: "PTSerif", sans-serif;
+    --content-width: 1880px;
+    --container-offset: 40px;
+    --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+    // colors
+    --White-color: #fff;
+    --Black-color: #000;
+    --Nobel-color: #9E9C9C;
+    --Charcoal-color: #414141;
+    --Black-Russian-color: #27282D;
+    --RMetallic-Copper-color: #734136;
+    --Pizza-color: #BF843B;
+    --Rust-color: #A94200;
+    --Very-Light-Grey-color: #CACACA;
+    --Dim-Gray-color: #666666;
+    --fon-color: rgba(32, 32, 32,  0.85);
+  }

@@ -1,0 +1,45 @@
+.footer{
+    padding: 20px 0;
+    background-color: var( --Black-color);
+
+
+    &__container {
+        @include flex-all-sb;
+    }
+
+    &__list{
+       @include flex;
+      }
+&__list-item:not(:last-child){
+    padding-right: 70px;
+}
+&__svg{
+    width: 30px;
+    height: 30px;
+
+}
+&__svg {
+    fill: var(--Nobel-color);
+    transition: fill 0.3s ease-in-out;
+}
+&__link{
+    outline: none;
+}
+&__link:focus svg{
+    outline: 2px solid var( --Pizza-color);
+}
+  &__svg:hover{
+
+    fill: var(--Pizza-color);
+  }
+
+  &__svg:active{
+    fill: var(--Rust-color);
+  }
+    &__logo{
+        @include mobile{
+          margin-left: 10px;
+          width: 112px;
+        }
+    }
+}

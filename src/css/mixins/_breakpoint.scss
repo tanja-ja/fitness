@@ -1,0 +1,53 @@
+/* stylelint-disable */
+
+@mixin for-desktop {
+    @media (min-width: (1025px)) {
+      @content;
+    }
+  }
+  
+  @mixin big-desktop {
+    @media (max-width: (1440px)) {
+      @content;
+    }
+  }
+  @mixin big-tablet {
+    @media (max-width: (1200px)) {
+      @content;
+    }
+  }
+  @mixin tablet {
+    @media (max-width: (1024px)) {
+      @content;
+    }
+  }
+  
+  @mixin small-tablet {
+    @media (max-width: (780px)) {
+      @content;
+    }
+  }
+  
+  @mixin big-mobile {
+    @media (max-width: (740px)) {
+      @content;
+    }
+
+  }
+  @mixin centr-mobile {
+    @media (max-width: (550px)) {
+      @content;
+    }
+  }
+  @mixin mobile {
+    @media (max-width: (550px)) {
+      @content;
+    }
+    
+  }
+  @mixin small-mobile {
+    @media (max-width: (380px)) {
+      @content;
+    }
+    
+  }

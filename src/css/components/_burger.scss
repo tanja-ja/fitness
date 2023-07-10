@@ -1,0 +1,41 @@
+.burger{display: none;
+    &__line{
+        position: absolute;
+        top:50%;
+        left:50%;
+        width: 20px;
+        height: 2px;
+        transform: translateX(-50%) translateY(-50%);
+        background-color: var(--White-color);
+
+        &:first-child{
+margin-top: -8px;
+        }
+        &:last-child{
+            left: 0;
+            width: 10px;
+            margin-top: 8px;
+            transform:translateY(-50%);
+        }
+
+    }
+    &__close-svg{
+       display: none;
+       @include mobile{
+        position: absolute;
+        top:0;
+        left: 20px;
+        display: inline-block;
+       }
+    }
+    &__contacts {
+        display: none;
+
+    }
+    &__tel{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        color: var(--Burnt-Orange-color);
+    }
+}
